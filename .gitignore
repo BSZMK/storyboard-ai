@@ -1,0 +1,28 @@
+# 依赖
+node_modules/
+.pnp
+.pnp.js
+
+# 构建输出
+.next/
+out/
+build/
+dist/
+
+# 环境变量(❗绝对不能上传)
+.env
+.env.local
+.env.production
+.env.development.local
+
+# Vercel
+.vercel
+
+# 系统
+.DS_Store
+*.log
+npm-debug.log*
+
+# IDE
+.vscode/
+.idea/
