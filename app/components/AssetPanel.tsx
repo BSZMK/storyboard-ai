@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import { Asset, listAssets, saveAssets, newId } from "../lib/characterStore";
+import { Asset, listAssets, saveAssets, newId } from "../lib/assetStore";
 import { useToast } from "./Toast";
 
 interface Props {
